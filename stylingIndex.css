@@ -1,19 +1,27 @@
-p { 
-	font-family: "Playfair Display", "Didot", "Times New Roman", Times, serif; 
-	color: #ff0059;
-
-	
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: "Playfair Display", "Didot", "Times New Roman", Times, serif; 
 }
 
-.bg {
+*{
+	box-sizing: border-box;
+}
+body{
 	background-image: url("paper.jpg");
 
 	/* Full height */
-	margin: 0;
 	height: 100%;
 
 	/* Center and scale the image nicely */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+}
+.bg-text{
+color: #ff0059;
+
 }
